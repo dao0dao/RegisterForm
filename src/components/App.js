@@ -17,7 +17,7 @@ class App extends React.Component {
 
   validation = {
     usernick: /\s/,
-    email: /[a-z]*[-_]*[.]*[0-9]*@[a-z]+[0-9]*[.][a-z]{2,3}$/i,
+    email: /[a-z]+[-_]*[.]*[0-9]*@[a-z]+[0-9]*[.][a-z]{2,3}$/i,
     upperCase: /[A-Z]+/,
     downCase: /[a-z]+/,
     specials: /[!@#$%^&*()-_,.]+/,
